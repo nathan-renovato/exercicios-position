@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    min-height: 100vh;
+}
+
+header {
+    align-items: center;
+    background-color: #E8BBA8;
+    color: #461B09;
+    display: flex;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.18));
+    height: 164px;
+    justify-content: space-between;
+    padding: 48px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+    font: normal 700 30px/35px 'Roboto', sans-serif;
+    margin-left: 80px;
+}
+
+main {
+    padding: 108px 104px;
+}
+
+h1 {
+    font: normal 700 64px/80px 'Merriweather', sans-serif;
+    margin-bottom: 50px;
+    max-width: 714px;
+}
+
+p {
+    font: normal 300 36px/42px 'Roboto', sans-serif;
+    margin-bottom: 141px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.imagens-besouros {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 121px;
+    max-width: 1000px;
+}
+
+.besouro-verde {
+    left: 50px;
+    position: relative;
+}
+
+.besouro-vermelho {
+    bottom: 30px;
+    position: relative;
+}
+
+.modal {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    display: none;
+    left: 0;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
